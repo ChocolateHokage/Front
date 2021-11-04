@@ -1,0 +1,47 @@
+body {
+  background-color: rgb(240, 199, 199);
+  /* background-image: url(img/car1.jpg) */
+  color: white;
+}
+
+h1 {
+  color: rgb(95, 71, 250);
+}
+
+p {
+  color: rgb(12, 148, 0);
+  border: 2px solid aquamarine;
+  /* линия */
+  border: 2px dashed aquamarine;
+  /* пунктир */
+  border: 2px dotted aquamarine;
+  /* точки */
+  border: 2px double aquamarine;
+  /* двойная линия */
+
+  border-width: 3px; 
+     /* толщина рамки */
+  border-style: solid ; 
+     /* тип линии рамки */
+  border-color: blue; 
+     /* цвет линии рамки */
+
+  border-left: 2px solid rgb(135, 248, 224);
+  /* верхняя линия рамки */
+  border-bottom: 3px solid rgb(135, 248, 224);
+  /* нижняя линия рамки */
+  border-top: 3px solid rgb(135, 248, 224);
+  /* верхняя линия рамки */
+  border-right: 2px solid rgb(135, 248, 224);
+  /* правая линия рамки */
+}
+mark{
+    background-color: coral;
+}
+ks54{
+    display: block;
+    transform: rotate(100deg);
+    font-size: 30px;
+    text-transform: uppercase;
+    color: cyan;
+}

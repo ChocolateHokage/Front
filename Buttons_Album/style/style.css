@@ -1,0 +1,28 @@
+body {
+  height: 1000px;
+  background: linear-gradient(180deg, rgb(240, 144, 144), rgb(122, 113, 250));
+  margin: 0;
+}
+.header {
+  text-align: center;
+  margin: 0px;
+}
+img {
+  width: 200px;
+  height: 250px;
+  margin: 10px
+}
+.block {
+  
+  margin: 0px;
+  /* border: 4px dashed firebrick; */
+}
+.backround_layer {
+  width: 220px;
+  height: 270px;
+  transform: rotate(350deg);
+  margin: 50px auto auto 50px;
+  background-color: gold;
+  /* border: 4px dashed rgb(253, 9, 9); */
+    border-radius: 10px;
+}

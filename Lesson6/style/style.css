@@ -1,0 +1,47 @@
+body {
+  background-color: rgb(15, 5, 26);
+}
+.wrap {
+  display: flex;
+  /*выравнивание по горизонтали*/
+  justify-content: space-evenly; /* Значения: 
+  1.center,
+  2.flex-start, 
+  3.flex-end,
+  4.space-around,
+  5.space-between; */
+
+  /* выравнивание по вертикали */
+  align-items: flex-start;
+  /* Значения: 
+  1.center,
+  2.flex-start,
+  3.flex-end,
+  */
+    /* align-content: flex-end; */
+    /* Знаения:
+    1.flex-start,
+    2. */
+
+  flex-wrap: wrap;
+  border: 2px dashed coral;
+  width: 1000px;
+  height: 800%ы;
+  padding: 0px;
+}
+.block {
+  display: block;
+  border: 2px dashed rgb(65, 31, 218);
+  width: 200px;
+  height: 200px;
+  color: white;
+  font-family: Consolas;
+  font-size: 32px;
+  text-align: center;
+}
+.green {
+  border-color: greenyellow;
+}
+.red {
+  border-color: crimson;
+}

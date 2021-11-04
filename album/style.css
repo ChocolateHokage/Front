@@ -1,0 +1,53 @@
+:root {
+  --color-back: green;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  color: aliceblue;
+}
+body {
+  background-color: var(--color-back);
+  margin: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+hr {
+  size: 10px;
+}
+h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  background-color: rgb(245, 237, 237);
+  margin: auto;
+  height: auto;
+}
+h3 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif, "Lucida Sans Unicode", Geneva, Verdana,
+    sans-serif;
+  text-align: center;
+  background-color: var(--color-back);
+  text-decoration-color: aliceblue;
+}
+div.cats {
+  /* text-align: center; */
+  border-style: double;
+  border: 1px firebrick;
+}
+img {
+  border-radius: 10px;
+  background-color: thistle;
+}
+.cats > .images {
+  width: fit-content;
+  margin: auto;
+  border: 3px tomato;
+  padding: 10px;
+}
+div.cars {
+  text-align: center;
+  border: 3px wheat;
+}

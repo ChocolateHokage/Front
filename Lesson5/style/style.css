@@ -1,0 +1,15 @@
+.header {
+  border: 1px solid red;
+}
+.block {
+  /*Тип тега*/
+  display: block;
+  border: 1px solid red;
+
+  /* ширина блока */
+  width: 200px;
+}
+.inline{
+    display:inline;
+    border: 3px solid greenyellow;
+}
