@@ -1,0 +1,87 @@
+h1 {
+  color: aquamarine;
+}
+body {
+  background-color: #000000;
+}
+.images {
+  display: flex;
+  justify-content: space-around;
+}
+.image1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: coral;
+  font-size: 32px;
+  font-family: Consolas;
+  border: 3px solid red;
+  height: 460px;
+  width: 460px;
+  background-color: rgb(158, 221, 221);
+}
+
+.image-cat1 {
+  background-image: url(../album/Images/cat4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  /* background-position-x: 100px;
+  background-position-y: 100px; */
+  /* background-position-y: center;
+  background-position-x: center; */
+}
+.image-cat2 {
+  background-image: url(../album/Images/cat3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-block {
+  display: flex;
+  flex-wrap: wrap;
+}
+.block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 400px;
+  background-color: #222;
+  margin: 20px;
+  color: white;
+  font-family: Consolas;
+  font-size: 32px;
+  transition: 1s;
+  border: 2px solid tomato;
+}
+.block:hover {
+  color: red;
+  background-color: sandybrown;
+  height: 450px;
+  cursor: grab;
+}
+
+.block:active {
+  cursor: grabbing;
+  border-radius: 100%;
+  /* transform: scale(0.8); */
+  transform: rotate(180deg);
+}
+
+.block:last-child {
+  background-color: seagreen;
+}
+
+.block:first-child {
+  background-color: rgb(75, 23, 218);
+}
+
+.block:nth-child(2n-1) {
+  background-color: springgreen;
+}
+
+.block:nth-child(2n + 1):hover {
+  background-color: tomato;
+}

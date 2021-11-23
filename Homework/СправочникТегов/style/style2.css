@@ -1,0 +1,60 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Consolas;
+  color: rgb(135, 162, 250);
+  font-weight: bold;
+  font-size: 15pt;
+}
+.menu {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: inline-block;
+  justify-content: center;
+  margin: 20px;
+}
+a {
+  text-decoration: none;
+  color: rgb(135, 162, 250);
+}
+ul {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+.h {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 80px;
+  background-color: rgb(135, 162, 250);
+  color: aliceblue;
+  margin: 20px auto;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 800px;
+  height: 500px;
+  justify-content: space-around;
+  margin: auto;
+}
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid rgb(135, 162, 250);
+  font-family: Consolas;
+  font-size: 50pt;
+  font-weight: normal;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+}

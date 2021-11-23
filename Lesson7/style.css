@@ -1,0 +1,27 @@
+.main-block {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+align-content: space-between;
+  margin: 30px;
+  border: 3px solid red;
+  height: 500px;
+}
+.three{
+    align-self:flex-end;
+}
+.block {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  font-family: Cnsolas;
+  font-weight: bold;
+  color: azure;
+  font-size: 48px;
+  width: 120px;
+  height: 120px;
+  background-color: cadetblue;
+  margin: 10px;
+}
